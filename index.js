@@ -15,9 +15,10 @@ let randNo= Math.floor((Math.random() * 10) + 1);
 let guessNo=Number(prompt("Enter your Guess No"))
 
 if(randNo==guessNo){
-    alert("Good work");
+    console.log("Good work");
 }else{
-    alert("Not matched")
+    
+    console.log("Not matched")
 }
 // question 3
 let num1=50
@@ -30,7 +31,6 @@ if(diff1>diff2){
 }else{
     console.log("Num1 is Close to 100");
 }
-// let num=Number(prompt("Enter any Number"))
 if (100-num1)
 
 
